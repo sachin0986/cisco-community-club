@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+.navbar
+{
+  transition-duration: 0.5s;
+  background-color: #F9FaFc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 50px 0 rgba(0 0 0 / 25%);
+}
+
+.home
+{
+    box-sizing: inherit;
+    justify-content: right;
+    margin-right: 2.7em !important;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.navbar_brand
+{
+    display: flex;
+    padding: 25px;
+    
+}
+
+/*about me*/
+
+.my_photo{
+padding-right: 20px;
+}
+.about_sec
+{
+    
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    display: flex;
+}
+.my_main_photo
+{
+
+    align-items: baseline;
+    justify-content: baseline;
+    padding-top: 90px;
+    padding-right: 45px;
+    height: 450px;
+}
+.main_head
+{
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+    font-size: 45px;
+    font-weight: 800px;
+}
+.content
+{
+    width: 70%;
+    padding-left: 40px;
+    padding-top: 10px;
+    display: block;
+    text-align: left;
+    font-weight: 300;
+    font-size: 26px;
+    
+}
+/*skill section*/
+
+.skills_sec
+{
+    
+    
+    padding: 40px;
+    display: flex;
+
+    background: rgb(0,0,0);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 42%, rgba(64,62,62,1) 100%);
+
+}
+.row_1, .row_2, .row_3
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill_l, .skill_2
+{
+    padding: 15px;
+    width: 140px;
+}
+.skill_3, .skill_4
+{   
+    justify-content: center;
+    padding: 15px;
+    width: 140px;
+}
+.skill_5
+{
+    width: 200px;
+}
+.skill_6
+{
+    width: 180px;
+}
+.skill_5, .skill_6
+{   
+    padding: 15px;
+}
+
+.skill_text
+{
+ padding: 40px;
+}
+.skill_head
+{
+    
+    display: block;
+    width: 90%;
+    font-size: 45px;
+    font-weight: 800px;
+    padding-bottom: 60px;
+}
+.skill_content
+{
+    display: block;
+    width: 70%;
+    font-weight: 200;
+    font-size: 23px;
+    position: relative;
+}
+
+/* more section*/
+
+.more_head
+{
+    display: block;
+    width: 80%;
+    font-size: 50px;
+    font-weight: 1000px;
+    padding-bottom: 40px;    
+}
+.more_content
+{
+    display: block;
+    width: 73%;
+    font-weight: 200;
+    font-size: 23px;
+    text-align: left;
+}
+.more_sec
+{
+    padding: 40px;
+    display: flex;
+}
+.more_1
+{
+    padding: 10px;
+    display: block;
+    width: 90px;
+}
+.m_row_1, .m_row_2, .m_row_3, .m_row_4
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.more_text
+{
+    padding: 40px; 
+}
+.more_photos
+{
+    padding-top: 55px;
+    padding-right: 80px;  
+}
+
+/*social section*/
+
+.social_sec
+{
+    display: flex;
+    padding: 40px;  
+}
+
+.main_photo_1
+{
+    
+    margin-left: 30px;
+    border-radius: 10px;
+    width: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.soc_text
+{
+    
+    padding: 10px;
+}
+.soc_head, .soc_content
+{
+    justify-content: center;
+    display: block;
+    padding-left: 35px ;
+    padding-right: 30px;
+    padding-bottom: 20px ;
+    
+}
+.soc_head
+{
+    padding-top: 20px;
+    font-size: 35px ;
+
+}
+.soc_content
+{
+    color: gray;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 30px;
+    position: absolute;
+}
+
+/*more photos*/
+.soc_more_pictures
+{
+    padding-top: 50px;
+    padding-left: 66px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    gap: 35px;
+    display: flex;
+}
+.similar
+{
+    border-radius: 10px;
+    width: auto;
+    height: 300px;
+    vertical-align: middle;
+
+}
+
+/*Connection section*/
+
+.con_sec
+{
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.hello
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+.conn_text
+{
+    color: #999;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+.g_mail
+{
+    padding: 20px;
+}
+.footer_bar
+{
+
+        color: #555;
+        margin-top: 40px;
+        height: 80px;
+        text-align: center;
+        position: relative;
+        background: rgba(0, 0, 0, 0.05);
+}
+.footer_items
+{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.footer_links, .footer_text
+{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.link_logo, .git_logo
+{
+    height: 25px;
+    gap: 10px;
+    padding-right: 10px;
+}

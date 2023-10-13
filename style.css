@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+
+
+/*navbar*/
+
+.navbar
+{
+  transition-duration: 0.5s;
+  background-color: #F9FaFc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 50px 0 rgba(0 0 0 / 25%);
+}
+
+a
+{
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+.navbar_brand
+{
+    display: flex;
+    padding: 25px;
+    
+}
+.home
+{
+    box-sizing: inherit;
+    justify-content: right;
+    margin-right: 2.7em !important;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+/*intro section*/
+
+.intro
+{
+
+    align-items: center;
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
+
+    background: rgb(255,255,255);
+background: linear-gradient(172deg, rgba(255,255,255,1) 0%, rgba(249,249,249,1) 100%);
+}
+
+.intro_head
+{
+    color: #222222;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.intro_text
+{
+    color: #999;
+    font-size: 22px;
+    font-weight: 300;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 70%;
+    margin-left: 10%;
+}
+
+/*card 1*/
+.protfolio_design{
+    display: flex;
+}
+
+.screen_img{
+    display: flex;
+    width: 600px;
+    height: auto;
+}
+
+/*connecton section*/
+
+.con_sec
+{
+    padding: 60px;
+    text-align: center;
+    
+}
+
+.hello
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-weight: 800px;
+}
+
+.conn_text
+{
+    color: #999;
+    font-size: 22px;
+    font-weight: 300;
+
+}
+.g_mail
+{
+    padding: 20px;
+}
+
+/*footer section*/
+.footer_bar
+{
+
+        color: #555;
+        margin-top: 40px;
+        height: 80px;
+        text-align: center;
+        position: relative;
+        background: rgba(0, 0, 0, 0.05);
+}
+.footer_items
+{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.footer_links, .footer_text
+{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+
+.link_logo, .git_logo
+{
+    height: 25px;
+    gap: 10px;
+    padding-right: 10px;
+}
+.currently
+{
+    background: rgb(198,145,237);
+    background: linear-gradient(180deg, rgba(198,145,237,1) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    padding: 60px;
+}
+.number_curr, .number_one, .number_two, .number_3
+{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+.main_curr, .main_one, .main_two, .main_3
+{
+    display: block;
+    font-size: 45px;
+    font-weight: 800;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.desc_curr, .desc_one, .desc_two, .desc_3
+{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    color: gray;
+   display: block;
+   text-align: left;
+   font-weight: 300;
+   font-size: 20px;
+   position: relative;
+   width: 65%;
+}
+.curr_logo, .one_logo, .three_logo
+{
+    display: block;
+    position: relative;
+    padding: 50px;
+    margin-top: 110px;
+    margin-right: 20px;
+}
+.two_logo
+{
+    display: block;
+    position: relative;
+    padding: 70px;
+    margin-top: 60px;
+    margin-left: 70px;   
+}
+.event-button
+{
+    background-color: #222222;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border: none;
+    height: 4em;
+    width: 11em;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    font-size: .9em;
+
+}
+.dev_logo{
+    width: 100%;
+    max-width: 600px;
+}
+.cur_h1{
+    padding-left: 15px;
+}
+.one{
+    background: rgb(111,177,242);
+    background: linear-gradient(90deg, rgba(111,177,242,1) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    padding: 60px;
+}
+.cuvette_logo{
+    width: 90%;
+    max-width: 500px;
+}
+.project_logo{
+    margin-left: 20px;
+    width: 90%;
+    max-width: 500px
+}
+.two{
+    background: rgb(9,9,9);
+    background: linear-gradient(360deg, rgba(9,9,9,1) 0%, rgba(23,40,64,1) 44%, rgba(28,50,75,1) 100%);
+    display: flex;
+    padding: 60px;
+}
+.two_h1{
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+}
+.event-button-p
+{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    border: none;
+    height: 4em;
+    width: 11em;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    font-size: .9em;
+}
+.port_design{
+    background: rgb(190,249,189);
+    background: linear-gradient(360deg, rgba(190,249,189,1) 0%, rgba(255,255,255,1) 100%);
+    display: flex;
+    padding: 60px;
+}
